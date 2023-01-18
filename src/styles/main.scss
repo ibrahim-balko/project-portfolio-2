@@ -560,6 +560,7 @@ footer a{
 .thank{
   padding-top: 8px;
   font-family: "Playfair Display", serif;
+  display: none;
 }
 footer h5{
   color: white;
@@ -728,6 +729,9 @@ footer p{
   .services-card div:nth-of-type(3){
     width: 15vw;
     height: 90%;
+  }
+  .thank{
+    display: block;
   }
 
 }
