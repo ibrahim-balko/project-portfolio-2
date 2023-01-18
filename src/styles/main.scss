@@ -19,6 +19,7 @@
 :root {
   font-size: 62.5%;
 }
+// this is all page background
 body {
   background: linear-gradient(
     to right,
@@ -31,6 +32,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+// this is where navigation and logo are displayed and resized
 header {
   display: flex;
   justify-content: space-between;
@@ -40,6 +42,7 @@ header {
   background-color: transparent;
   box-shadow: 2px 2px 2px 2px;
 }
+// this is header logo
 header .logo {
   font-size: 3vw;
   text-decoration: none;
@@ -51,23 +54,7 @@ header .logo {
   margin: 2rem;
   // animation: logo 6s 1;
 }
-//  @keyframes logo{
-//    0%{
-//     color: black;
-//      margin-top: 6px;
-//    }
-//    50%{
-//      color: red;
-//      margin-top: 6px;
-//    }
-//  }
-// .logo span {
-//   transition: 0.5s;
-// }
-// .logo:hover span:nth-child(1) {
-//   color: #fff;
-//   text-shadow: 0 0 10px #fff;
-// }
+// this is logo hover and animation effect
 .logo:hover span:nth-child(1) {
   margin-right: 6px;
   color: #fff;
@@ -84,6 +71,7 @@ header .logo {
   text-shadow: 0 0 10px #fff;
   transition: 3s;
 }
+// this is dropdown menu button
 .dropbtn {
   color: orange;
   padding: 14px;
@@ -103,6 +91,8 @@ header .logo {
   align-self: center;
   margin-right: 6px;
 }
+// dropdown content
+
 .dropdown-content {
   font-size: 2rem;
   display: none;
@@ -140,6 +130,7 @@ header .logo {
   background-color: grey;
   transition: 0.7s;
 }
+// this is the page nr.1
 .hero {
   display: flex;
   justify-content: center;
@@ -150,6 +141,7 @@ header .logo {
   left: 0px;
   top: 0;
 }
+// small logo for page nr.1
 .small-logo {
   font-family: "Playfair Display", serif;
   position: absolute;
@@ -166,6 +158,8 @@ header .logo {
 .small-logo span {
   color: white;
 }
+// container for page nr.1 image and info
+
 .cards-container {
   display: flex;
   flex-direction: row;
@@ -176,6 +170,7 @@ header .logo {
   width: 100vw;
   margin-right: 2rem;
 }
+// this is info card div container
 
 .info-card {
   height: 8rem;
@@ -185,6 +180,7 @@ header .logo {
   background-color: transparent;
   backdrop-filter: blur(1000px);
 }
+// personal image container div
 
 .personal-image-card {
   width: 100px;
@@ -216,6 +212,7 @@ header .logo {
   position: absolute;
   margin-top: 18px;
 }
+// section page nr.2 container
 .my-work {
   width: 100vw;
   height: 30rem;
@@ -240,6 +237,8 @@ header .logo {
 .work-logo span {
   color: white;
 }
+// this is where my projects supposed to be 
+
 .img-card {
   // border: 1px solid red;
   width: 90vw;
@@ -384,6 +383,7 @@ header .logo {
   background-repeat: no-repeat;
 }
 
+// section page nr.3
 
 .more-about-me{
   width: 100vw;
@@ -394,6 +394,8 @@ header .logo {
   align-items: center;
   position: relative;
 }
+// about me image and info card container
+
 .more-card{
   width: 90vw;
   height: 90%;
@@ -403,6 +405,7 @@ header .logo {
   align-items: center;
   position: relative;
 }
+
 .more-card .about-me-img{
   width: 150px;
   height: 240px;
@@ -414,23 +417,29 @@ header .logo {
   margin-left: 4%;
   border-radius: 4px;
 }
+
 .more-card h2{
   color: orange;
 }
+
 .more-card p{
   width:150px;
   color: white;
 }
+
 .more-card a button{
   background-color: #f9004d;
   color: white;
   border-radius: 15px;
   padding: 4px;
 }
+
 .more-card a button:hover{
   transform: scale(1);
   transition: 0.7s;
 }
+// new section paage nr.4
+
 .services{
   display: flex;
   justify-content: center;
@@ -442,6 +451,8 @@ header .logo {
   top: 0;
   // border: 1px solid red;
 }
+// cards belong to services section
+
 .services-card{
   position: absolute;
   width:100vw;
@@ -529,6 +540,8 @@ header .logo {
   transform: scale(1);
   transition: 0.7s;
 }
+// footer starts from here
+
 footer{
   width: 100%;
   height: 20vh;
