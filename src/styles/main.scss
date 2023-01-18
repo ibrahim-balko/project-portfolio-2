@@ -651,6 +651,7 @@ footer p{
   }
   .cards-container{
     justify-content: space-evenly;
+    margin-left: 5rem;
   }
   .small-logo{
     height: fit-content;
@@ -659,17 +660,18 @@ footer p{
     width: 20rem;
   }
   .info-card{
-    width: 40vw;
+    width: 30vw;
     height: 40vh;
     font-size: 2rem;
-    
+    margin-left: 6rem;
+    line-height: 3rem;
   }
   .info-card h3{
     font-size: 2rem;
-    
+    padding-top: 0;
   }
   .info-card p{
-    width: 50%;
+    width: 20rem;
   }
   .personal-image-card{
     width: 20vw;
